@@ -95,11 +95,13 @@ print(metrics)
 
 ```
 
-## 🔍 Key Insights* **⚠️ Winter Crisis**: AQI consistently spikes to "Severe" levels (>400) during Winter (Nov-Jan) due to temperature inversion and low wind speeds.
+## 🔍 Key Insights
+* **⚠️ Winter Crisis**: AQI consistently spikes to "Severe" levels (>400) during Winter (Nov-Jan) due to temperature inversion and low wind speeds.
 * **☠️ Primary Pollutants**: **PM2.5** and **PM10** show a near-perfect correlation (r > 0.95) and are the biggest drivers of poor air quality.
 * **🔮 Forecast**: The model predicts a recurrence of hazardous air quality in the upcoming winter season, suggesting the need for preemptive pollution control measures in October.
   
-## 🤝 ContributingContributions are welcome! Please fork the repository and create a pull request for any feature enhancements or bug fixes.
+## 🤝 Contributing
+Contributions are welcome! Please fork the repository and create a pull request for any feature enhancements or bug fixes.
 
 ---
 
