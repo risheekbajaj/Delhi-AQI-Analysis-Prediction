@@ -41,14 +41,14 @@ Delhi-AQI-Analysis-Prediction/
 
 ```
 
-##📊 Dataset DetailsThe dataset (`final_dataset.csv`) contains daily air quality records with the following key columns:
+## 📊 Dataset DetailsThe dataset (`final_dataset.csv`) contains daily air quality records with the following key columns:
 
 * **Date/Month/Year**: Temporal features.
 * **Pollutants**: `PM2.5`, `PM10`, `NO2`, `SO2`, `CO`, `Ozone`.
 * **Target**: `AQI` (Air Quality Index).
 * **Derived**: `Season` (Winter, Summer, Monsoon, Post-Monsoon), `AQI_Category`.
 
-##🛠️ Installation & Setup1. **Clone the Repository**
+## 🛠️ Installation & Setup1. **Clone the Repository**
 ```bash
 git clone [https://github.com/risheekbajaj/Delhi-AQI-Analysis-Prediction.git](https://github.com/risheekbajaj/Delhi-AQI-Analysis-Prediction.git)
 cd Delhi-AQI-Analysis-Prediction
@@ -72,7 +72,7 @@ pip install -r requirements.txt
 
 
 
-##💻 Usage###Option 1: Run the Jupyter NotebookOpen the notebook to see the step-by-step analysis and run the cells interactively.
+## 💻 Usage###Option 1: Run the Jupyter NotebookOpen the notebook to see the step-by-step analysis and run the cells interactively.
 
 ```bash
 jupyter notebook notebooks/Delhi_AQI_Analysis.ipynb
@@ -93,17 +93,11 @@ print(metrics)
 
 ```
 
-##🔍 Key Insights* **⚠️ Winter Crisis**: AQI consistently spikes to "Severe" levels (>400) during Winter (Nov-Jan) due to temperature inversion and low wind speeds.
+## 🔍 Key Insights* **⚠️ Winter Crisis**: AQI consistently spikes to "Severe" levels (>400) during Winter (Nov-Jan) due to temperature inversion and low wind speeds.
 * **☠️ Primary Pollutants**: **PM2.5** and **PM10** show a near-perfect correlation (r > 0.95) and are the biggest drivers of poor air quality.
 * **🔮 Forecast**: The model predicts a recurrence of hazardous air quality in the upcoming winter season, suggesting the need for preemptive pollution control measures in October.
-
-##📈 Visualizations| AQI Trend | Correlation Matrix |
-| --- | --- |
-|  |  |
-
-##🤝 ContributingContributions are welcome! Please fork the repository and create a pull request for any feature enhancements or bug fixes.
-
-##📜 LicenseThis project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
+  
+## 🤝 ContributingContributions are welcome! Please fork the repository and create a pull request for any feature enhancements or bug fixes.
 
 ---
 
