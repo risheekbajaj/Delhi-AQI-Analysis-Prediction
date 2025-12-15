@@ -41,7 +41,8 @@ Delhi-AQI-Analysis-Prediction/
 
 ```
 
-## 📊 Dataset DetailsThe dataset (`final_dataset.csv`) contains daily air quality records with the following key columns:
+## 📊 Dataset Details
+The dataset (`final_dataset.csv`) contains daily air quality records with the following key columns:
 
 * **Date/Month/Year**: Temporal features.
 * **Pollutants**: `PM2.5`, `PM10`, `NO2`, `SO2`, `CO`, `Ozone`.
@@ -72,14 +73,15 @@ pip install -r requirements.txt
 
 
 
-## 💻 Usage###Option 1: Run the Jupyter NotebookOpen the notebook to see the step-by-step analysis and run the cells interactively.
+## 💻 Usage
+### Option 1: Run the Jupyter NotebookOpen the notebook to see the step-by-step analysis and run the cells interactively.
 
 ```bash
 jupyter notebook notebooks/Delhi_AQI_Analysis.ipynb
 
 ```
 
-###Option 2: Run via Scripts (Modular)You can import the modules in your own scripts or run the notebook which calls these modules.
+### Option 2: Run via Scripts (Modular)You can import the modules in your own scripts or run the notebook which calls these modules.
 
 ```python
 from src.preprocessing import load_data, preprocess_data
